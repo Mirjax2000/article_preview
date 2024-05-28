@@ -1,0 +1,30 @@
+@use '../partials/tools' as *;
+@use '../partials/assembler/' as *;
+
+// --------------------
+/* --- home main --- */
+// --------------------
+
+.home {
+    font-family: $font-family-systemUI;
+}
+
+@each $element, $styles in $fonts {
+    .#{$element} {
+        color: map-get($styles, color);
+        font-size: map-get($styles, size);
+        line-height: map-get($styles, height);
+    }
+}
+
+@each $element, $color in $bck__color {
+    .#{$element} {
+        background-color: $color;
+    }
+}
+.container {
+    max-width: em(1440, 16);
+    margin-inline: auto;
+    text-align: center;
+}
+
