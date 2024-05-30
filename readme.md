@@ -17,6 +17,8 @@ This is a solution to the [Four-card-feature](https://www.frontendmentor.io/chal
 Deep dive into B.E.M.
 Mobile first aproach.
 
+Javascript / jQuery
+
 Break point solving.
 
 ### Screenshot
@@ -38,10 +40,10 @@ Break point solving.
 8. HTML structure with B.E.M. - resolution switching and art direction for images.
 9. DiVe into coding in Sass
 10. Javascript/jQuery
-10. Mediaqueries
-11. testing
-12. hosting to github
-13. Submit solution to Frontend Mentor
+11. Mediaqueries
+12. testing
+13. hosting to github
+14. Submit solution to Frontend Mentor
 
 ### Built with
 
@@ -58,11 +60,8 @@ Break point solving.
 <p>"position absolute"</p>
 <p>"pseudoelements"</p>
 
-
-
 Here i am self-hosting fonts compressed it to woff2,
 fallback to ttf.
-
 
 ### Continued development
 
