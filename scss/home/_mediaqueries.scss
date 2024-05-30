@@ -5,11 +5,62 @@
 /* mediaqueries */
 // ----------------------
 
-// @include mQdefault__max-width(300px) {
-//     :root {
-//         --font-size: #{$font-size-90};
-//     }
-// }
+@include mQdefault__max-width(em(700, 16)) {
+    .container {
+        max-width: em(375, 16);
+        min-width: em(320, 16);
+        align-items: flex-start;
+    }
+    .wrapper {
+        padding: em(8, 16);
+    }
+    .main {
+        flex-direction: column;
+
+        .picture {
+            flex-basis: em(200, 16);
+            overflow: hidden;
+            img {
+                position: relative;
+                top: -25px;
+                border-bottom-left-radius: 0;
+                border-top-right-radius: 0.8em;
+                object-position: 0 0;
+                object-fit: cover;
+            }
+        }
+
+        .content {
+            flex-basis: 100%;
+            padding: em(36, 16) em(32, 16) em(8, 16);
+            position: relative;
+
+            .H3 {
+                margin-bottom: em(28, 13);
+            }
+
+            .content__footer {
+                position: static;
+
+                .share__banner {
+                    justify-content: flex-start;
+                    height: em(64, 16);
+                    left: 0;
+                    right: 0;
+                    bottom: 0;
+                    top: calc(100% - em(64, 16));
+                    border-top-right-radius: 0;
+                    border-top-left-radius: 0;
+                    padding: em(22, 16) em(37, 16);
+                    box-shadow: none;
+                    &::after {
+                        border: none;
+                    }
+                }
+            }
+        }
+    }
+}
 
 // @include mQdefault__min-width(750px) {
 //     :root {

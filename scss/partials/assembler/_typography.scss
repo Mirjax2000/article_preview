@@ -268,3 +268,19 @@
 //         url(../assets/webfonts/Font-face/Commissioner-Bold.ttf) format('truetype');
 //     font-weight: 700;
 // }
+
+// // Manrope - 500 - medium
+@font-face {
+    font-family: 'Manrope';
+    src: url(../assets/webfonts/Font-face/Manrope-Medium.woff2) format('woff2'),
+        url(../assets/webfonts/Font-face/Manrope-Medium.ttf) format('truetype');
+    font-weight: 500;
+}
+
+// // Manrope - 700 - bold
+@font-face {
+    font-family: 'Manrope';
+    src: url(../assets/webfonts/Font-face/Manrope-Bold.woff2) format('woff2'),
+        url(../assets/webfonts/Font-face/Manrope-Bold.ttf) format('truetype');
+    font-weight: 700;
+}

@@ -7,10 +7,10 @@ $debug: false;
 
 // --- color pallete ---
 $clr10: #ffffff;
-$clr11: #151619;
-$clr12: #1d1f22;
-$clr13: #2b2d31;
-$clr14: #35393f;
+$clr11: #48556a;
+$clr12: #6e8098;
+$clr13: #9eafc2;
+$clr14: #ecf2f8;
 $clr15: #5a6069;
 $clr16: #7c8187;
 $clr17: #e4e4e4;
@@ -28,56 +28,77 @@ $clr99: #505050;
 
 // backround color
 $bck__color: (
-    'home': $clr22,
-    'header': $clr12,
+    'home': $clr14,
+    'main': $clr10,
     'result': $clr14,
-    'main': $clr23,
-    'comp__1': $clr10,
-    'comp__2': $clr10,
-    'H4': $clr20,
-    'score': $clr23,
-    'roll__btn': $clr24,
+    'share__icon': $clr14,
+    'share__banner': $clr11,
 );
 $clr-bg-img: $clr99;
 // -------------------------
 
 // fonts - sizes and colors
 $fonts: (
-    'H1': (
-        color: $clr18,
-        size: 3rem,
-        height: 1em,
-    ),
     'H2': (
-        color: $clr12,
-        size: 2.5rem,
-        height: 1em,
+        color: $clr11,
+        weight: 700,
+        size--PC: rem(20),
+        size--Mb: rem(16),
+        height--PC: em(28, 20),
+        height--Mb: em(24, 16),
+        spacing--PC: em(0.25, 20),
+        spacing--Mb: em(0.2, 16),
     ),
     'H3': (
-        color: $clr23,
-        size: 2rem,
-        height: 1em,
+        color: $clr12,
+        weight: 500,
+        size--PC: rem(13),
+        size--Mb: rem(13),
+        height--PC: em(20, 13),
+        height--Mb: em(20, 13),
+        spacing--PC: em(0.12, 13),
+        spacing--Mb: em(0.12, 13),
     ),
     'H4': (
-        color: $clr12,
-        size: 2rem,
-        height: 1em,
+        color: $clr11,
+        weight: 700,
+        size--PC: rem(13),
+        size--Mb: rem(13),
+        height--PC: em(20, 13),
+        height--Mb: em(20, 13),
+        spacing--PC: em(0.12, 13),
+        spacing--Mb: em(0.12, 13),
     ),
     'H5': (
-        color: $clr23,
-        size: 2.5rem,
-        height: 1em,
+        weight: 500,
+        color: $clr13,
+        size--PC: rem(13),
+        size--Mb: rem(13),
+        height--PC: em(20, 13),
+        height--Mb: em(20, 13),
+        spacing--PC: em(0.12, 13),
+        spacing--Mb: em(0.12, 13),
     ),
-    'H6': (
-        color: $clr23,
-        size: 1rem,
-        height: 1em,
+    'share': (
+        color: $clr13,
+        weight: 500,
+        size--PC: rem(13),
+        size--Mb: rem(13),
+        height--PC: em(20, 13),
+        height--Mb: em(20, 13),
+        spacing--PC: em(5, 13),
+        spacing--Mb: em(5, 13),
     ),
-    'p': (
-        color: $clr23,
-        size: 1rem,
-        height: 1em,
-    ),
+    // 'p': (
+    //     color: $clr12,
+    //     size--PC: rem(13),
+    //     size--Mb: rem(13),
+    //     height--PC: em(20, 13),
+    //     height--Mb: em(20, 13),
+    //     spacing--PC: 0.12px,
+    //     spacing--Mb: 0.12px,
+    //     weight: 500,
+    // ),,,,,,,,,,
 );
 // -------------------------
 
@@ -86,29 +107,6 @@ $clr-bg-img: $clr99;
 
 $backroundGradient: (98.96% 98.96% at 50% 0%, #232a34 0%, #181e27 100%);
 // --------------------------------
-
-// --- fonts ---
-$font-family-Roboto__Slab: 'Roboto Slab', serif;
-$font-family-Roboto: Roboto, serif;
-$font-family-Commissioner: Commissioner, sans-serif;
-
-$font-family-SourceSans: 'Source Sans 3', sans-serif;
-$font-family-Outfit: Outfit, sans-serif;
-$font-family-Figtree: Figtree, sans-serif;
-$font-family-Inter: Inter, sans-serif;
-$font-family-YoungSerif: 'Young Serif', serif;
-$font-family-Montserrat: Montserrat, serif;
-$font-family-Fraunces: Fraunces, serif;
-$font-family-Poppins: Poppins, sans-serif;
-$font-family-Rubik: Rubik, sans-serif;
-$font-family-WorkSans: 'Work Sans', sans-serif;
-$font-family-RedHatDisplay: 'Red hat display', sans-serif;
-$font-family-Barlow-semiCon: 'Barlow_semi_condensed', sans-serif;
-
-$font-family-serif: Georgia, Times, 'Times New Roman', serif;
-$font-family-systemUI: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
-    Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-// -------------------------------
 
 // --- border-radius ---
 $br-card: 8;
@@ -130,7 +128,7 @@ $clr-shdw__header: $clr16;
 $tr-time: 0.2s;
 //----------------------
 // anim duration
-$anim-time: .5s;
+$anim-time: 0.5s;
 //----------------------
 
 // --- break points ---
